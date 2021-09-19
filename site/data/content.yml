@@ -1,0 +1,124 @@
+########################## hero area ##########################
+hero:
+  title: "I'm Brandon"
+
+  # animated text loop
+  occupations:
+    - 'Architecture'
+    - 'Cloud'
+    - 'DevSecOps'
+    - 'Orchestration'
+
+  # hero background image
+  bg_image: 'images/me_her_big.jpg'
+  # optional mobile breakpoint background
+  mobile_bg_image: 'images/me_her_big.jpg'
+
+########################### About ##################################
+about:
+  enable: true
+  image: 'images/me.jpg'
+  title: 'Yup'
+  content: Derp Derp
+  button:
+    enable: true
+    label: 'DOWNLOAD MY RESUME'
+    link: 'resume/resume.pdf'
+    icon: 'fa-download'
+
+########################### Experience ##############################
+experience:
+  enable: true
+  title: 'EXPERIENCE'
+  experience_list:
+    - name: Cloud Technical Architect
+      company: Accenture
+      duration: '2020-Current'
+      content: Aiding clients in adopting modern platforms, secure something, and someting  .
+
+    - name: Architect
+      company: StubHub
+      duration: '2014-2019'
+      content: Get from Resume
+
+    - name: Systems Engineer
+      company: WHI Solutions - eBay
+      duration: '2005-2013'
+      content: Something Something!
+
+############################### Skill #################################
+skill:
+  enable: true
+  title: 'SOME SKILLS'
+  showpercent: true
+  skill_list:
+    - name: 'Cooking'
+      percentage: '85%'
+
+    - name: 'iRacing'
+      percentage: '93%'
+
+    - name: 'Java Development'
+      percentage: '8%'
+
+    - name: 'Yelling'
+      percentage: '100%'
+
+######################### funfacts #############################3
+funfacts:
+  enable: false
+  funfacts_list:
+    - name: ''
+      image: 'images/icons/gca.png'
+      count: ''
+
+    - name: ''
+      image: 'images/icons/web-development.png'
+      count: ''
+
+    - name: ''
+      image: 'images/icons/happy.png'
+      count: ''
+############################# certifications ################################
+certifications:
+  enable: true
+  title: 'CERTIFICATIONS'
+  certifications_list:
+    - name: Hugo
+      image: 'images/certifications/gca.png'
+      url: https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/23653427
+      description: Commodo.
+
+    - name: Hug222o Themes
+      image: 'images/certifications/gcs.png'
+      url: https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/20858251
+      description: Commodo.
+
+    - name: Ju22st A Design
+      image: 'images/certifications/gcn.png'
+      url: https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/20858225
+      description: Commodo.
+
+
+
+
+
+############################# portfolio ################################
+portfolio:
+  enable: true
+  title: 'MY WORK'
+  portfolio_list:
+    - name: Hugo
+      image: 'images/portfolio/dummy_thumbnail.jpg'
+      url: https://fault-tolerant-dev.github.io/sample_page
+      description: Commodo.
+
+    - name: Hugo Themes
+      image: 'images/portfolio/dummy_thumbnail.jpg'
+      url: https://fault-tolerant-dev.github.io/sample_page
+      description: Commodo.
+
+    - name: Just A Design
+      image: 'images/portfolio/dummy_thumbnail.jpg'
+      url: https://fault-tolerant-dev.github.io/sample_page
+      description: Commodo.
